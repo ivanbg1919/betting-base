@@ -1,0 +1,90 @@
+h2,
+.h2 {
+  font-size: calc(0.8rem + 0.9vw);
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.my-header {
+  padding: 20px;
+  background: #0d6efd;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+#section-hero {
+  background-image: url("../img/the-ball.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 60vh; /* 60vh */
+}
+
+.table {
+  --bs-table-striped-bg: rgb(13, 110, 253, 0.1);
+  --bs-table-hover-bg: rgba(13, 110, 253, 0.2);
+}
+
+.bg-primary {
+  color: white;
+  background-color: #0d6efd !important;
+}
+
+.bg-danger {
+  color: white;
+}
+
+.class_padding {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.link-title {
+  color: #212529;
+}
+
+.link-title:hover,
+.link-title:active {
+  color: #212529;
+  text-decoration: none;
+}
+
+.footer {
+  padding: 2rem;
+  background: #0d6efd;
+  text-align: center;
+  color: #fff;
+}
+
+.relegation-color {
+  background-color: #f85050 !important;
+}
+
+.relegation-color-2 {
+  background-color: #ff8888 !important;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+/*
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #0d6efd;
+  margin-bottom: 2px;
+}
+*/
+
+@media screen and (max-width: 767px) {
+  .card {
+    display: none;
+  }
+  #section-hero {
+    min-height: 100vh; /* 40vh */
+  }
+}
